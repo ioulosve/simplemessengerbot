@@ -91,7 +91,7 @@ app.post('/ai', (req, res) => {
 
 
   //mette il server in ascolto sulla porta 5000 e registra la callback da lanciare quando qualcuno si connette
-var server = app.listen(3000, () => {
+var server = app.listen(8080, () => {
       //viene eseguito questo codice quando qualcuno si connette alla porta 5000
       console.log('Express server listening on port %d in %s mode', server.address().port, app.settings.env); 
   });
